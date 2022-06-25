@@ -1,0 +1,20 @@
+{
+  "applications": ["MOBB"],
+  "changelogDate": "20220625232913",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "audio",
+  "fields": [
+    {
+      "fieldName": "url",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Audio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

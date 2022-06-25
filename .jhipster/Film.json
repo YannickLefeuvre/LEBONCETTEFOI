@@ -1,0 +1,25 @@
+{
+  "applications": ["MOBB"],
+  "changelogDate": "20220625232113",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "film",
+  "fields": [
+    {
+      "fieldName": "images",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Film",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
