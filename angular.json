@@ -100,6 +100,7 @@
   },
   "defaultProject": "mobb",
   "cli": {
+    "analytics": "6739dc27-a7c6-4b34-a924-00bdcd9df82b",
     "cache": {
       "enabled": true,
       "path": "./target/angular/",

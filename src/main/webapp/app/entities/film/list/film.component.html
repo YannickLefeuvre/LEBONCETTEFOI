@@ -33,6 +33,7 @@
       <thead>
         <tr>
           <th scope="col"><span jhiTranslate="global.field.id">ID</span></th>
+          <th scope="col"><span jhiTranslate="mobbApp.maison.nom">Nom</span></th>
           <th scope="col"><span jhiTranslate="mobbApp.film.images">Images</span></th>
           <th scope="col"><span jhiTranslate="mobbApp.film.description">Description</span></th>
           <th scope="col"></th>
@@ -43,6 +44,7 @@
           <td>
             <a [routerLink]="['/film', film.id, 'view']">{{ film.id }}</a>
           </td>
+          <td>{{ film.nom }}</td>
           <td>
             <a *ngIf="film.images" (click)="openFile(film.images, film.imagesContentType)">
               <img [src]="'data:' + film.imagesContentType + ';base64,' + film.images" style="max-height: 30px" alt="film image" />
